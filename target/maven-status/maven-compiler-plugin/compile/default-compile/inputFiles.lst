@@ -1,0 +1,13 @@
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\AppKotlinMicroservicioApplication.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\controller\ConsultaController.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\controller\DoctorController.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\controller\PacienteController.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\model\Consulta.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\model\Doctor.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\model\Paciente.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\repository\ConsultaRepository.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\repository\DoctorRepository.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\repository\PacienteRepository.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\service\ConsultaService.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\service\DoctorService.java
+C:\Users\joaqu\OneDrive\Documentos\GitHub\Appkotlin_Microservicio\src\main\java\com\example\AppKotlin_Microservicio\service\PacienteService.java

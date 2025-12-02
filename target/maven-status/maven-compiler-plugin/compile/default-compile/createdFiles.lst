@@ -1,0 +1,13 @@
+com\example\AppKotlin_Microservicio\controller\ConsultaController.class
+com\example\AppKotlin_Microservicio\controller\DoctorController.class
+com\example\AppKotlin_Microservicio\model\Consulta.class
+com\example\AppKotlin_Microservicio\repository\DoctorRepository.class
+com\example\AppKotlin_Microservicio\service\PacienteService.class
+com\example\AppKotlin_Microservicio\service\ConsultaService.class
+com\example\AppKotlin_Microservicio\service\DoctorService.class
+com\example\AppKotlin_Microservicio\model\Paciente.class
+com\example\AppKotlin_Microservicio\AppKotlinMicroservicioApplication.class
+com\example\AppKotlin_Microservicio\model\Doctor.class
+com\example\AppKotlin_Microservicio\repository\ConsultaRepository.class
+com\example\AppKotlin_Microservicio\repository\PacienteRepository.class
+com\example\AppKotlin_Microservicio\controller\PacienteController.class
