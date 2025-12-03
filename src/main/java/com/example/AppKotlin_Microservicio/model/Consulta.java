@@ -19,7 +19,9 @@ public class Consulta {
     private Long id;
 
     private String fecha;
-    private String descripcion;
+    private String hora;
+
+    private String especialidad;
 
     // FK -> Paciente
     @ManyToOne

@@ -41,11 +41,6 @@ public class ConsultaController {
         return consultaService.findByDoctor(id);
     }
 
-    @PostMapping
-    public Consulta create(@RequestBody Consulta consulta) {
-        return consultaService.save(consulta);
-    }
-
     @PutMapping("/{id}")
     public ResponseEntity<Consulta> update(@PathVariable Long id, @RequestBody Consulta consulta) {
         Optional<Consulta> cons = consultaService.findById(id);

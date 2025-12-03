@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,6 +21,9 @@ public class Paciente {
     private Long id;
 
     private String nombre;
+    private String password;
+    @Column(unique = true)
+    private String email;
 
     @OneToMany(mappedBy = "paciente")
     @JsonIgnore        // Para evitar recursión en JSON

@@ -32,4 +32,8 @@ public class PacienteService {
     public void delete(Long id) {
         pacienteRepository.deleteById(id);
     }
+
+    public Optional<Paciente> findByEmail(String email) {
+        return pacienteRepository.findByEmail(email);
+    }
 }

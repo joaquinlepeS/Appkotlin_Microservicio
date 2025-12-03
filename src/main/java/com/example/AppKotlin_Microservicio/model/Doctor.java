@@ -19,7 +19,13 @@ public class Doctor {
     private Long id;
 
     private String nombre;
+    private String email;
+    private String telefono;
+    private String foto;
+    private String ciudad;
+    private String pais;
     private String especialidad;
+    private int experiencia;
 
     @OneToMany(mappedBy = "doctor")
     @JsonIgnore

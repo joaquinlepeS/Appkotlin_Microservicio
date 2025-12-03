@@ -7,5 +7,6 @@ import com.example.AppKotlin_Microservicio.model.Paciente;
 
 public interface PacienteRepository extends JpaRepository<Paciente, Long> {
     List<Paciente> findByNombre(String nombre);
+    java.util.Optional<Paciente> findByEmail(String email);
 
 }

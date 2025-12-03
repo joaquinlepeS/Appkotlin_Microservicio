@@ -31,6 +31,14 @@ public class PacienteController {
         return pac.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
+    @GetMapping("/email/{email}")
+public ResponseEntity<Paciente> getByEmail(@PathVariable String email) {
+    return pacienteService.findByEmail(email)
+            .map(ResponseEntity::ok)
+            .orElse(ResponseEntity.notFound().build());
+}
+
+
     @PostMapping
     public Paciente create(@RequestBody Paciente paciente) {
         return pacienteService.save(paciente);
